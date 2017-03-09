@@ -1,0 +1,14 @@
+var a=[17, 24, 4, 26, 19, 30, 2, 66, 40];
+var array_length=a.length;
+var position=0;
+var min=a[0];
+while (position<array_length){
+  if ((a[position]%2)!==0){
+    document.write("odd Number=",a[position]);
+  if (a[position]<min)
+  {
+    min=a[position];
+  }}
+  position++;
+}
+ document.write("min odd NO=",min);

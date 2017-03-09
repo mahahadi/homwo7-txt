@@ -1,0 +1,10 @@
+maha94:~/workspace (master) $ grep "function" q5.js                                                                                                              
+ function isOdd(value){
+maha94:~/workspace (master) $ grep "function" q5.js |wc -l 
+1
+maha94:~/workspace (master) $ grep "function" q7.js |wc -l                                                                                                       
+0
+maha94:~/workspace (master) $ grep "function" q6.js |wc -l                                                                                                       
+3
+maha94:~/workspace (master) $ 
+
